@@ -1,19 +1,18 @@
-# PDF417-js
+---
+page_type: sample
+languages:
+- nodejs
+- javascript
+products:
+- azure
+- azure-app-service
+description: "This sample demonstrates a tiny Hello World Node.js app for Azure App Service."
+---
 
-PDF417 - 2D barcode generator in Javascript
+# Node.js Hello World
 
-From input code (any text) creates PDF417 barcode with option to draw it on canvas.
+This sample demonstrates a tiny Hello World node.js app for [App Service Web App](https://docs.microsoft.com/azure/app-service-web).
 
-This is direct port of TCPDF PHP library from:
-http://www.tcpdf.org/
-or 
-http://sourceforge.net/projects/tcpdf/files/
+## Contributing
 
-Version used for porting is tcpdf_6_2_11 or more specific PDF417 class version 1.0.005.
-
-Also using helper methods from:
-http://bcmath-js.sourceforge.net/
-
-##Demo
-http://bkuzmic.github.io/pdf417-js/
-
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
