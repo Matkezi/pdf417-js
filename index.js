@@ -97,6 +97,23 @@ app.get("/", (req, res) => {
   }
 
   res.setHeader("Access-Control-Allow-Origin", "*");
+  // Website you wish to allow to connect
+
+  // Request methods you wish to allow
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET, POST, OPTIONS, PUT, PATCH, DELETE"
+  );
+
+  // Request headers you wish to allow
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "X-Requested-With,content-type"
+  );
+
+  // Set to true if you need the website to include cookies in the requests sent
+  // to the API (e.g. in case you use sessions)
+  res.setHeader("Access-Control-Allow-Credentials", true);
   //var canvasString = new Buffer(canvas.createJPEGStream()).toString("base64");
   res.status(200);
   //res.json({ barcode: barcode });
