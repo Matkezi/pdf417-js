@@ -96,6 +96,7 @@ app.get("/", (req, res) => {
     y += bh;
   }
 
+  res.setHeader("Access-Control-Allow-Origin", "*");
   //var canvasString = new Buffer(canvas.createJPEGStream()).toString("base64");
   res.status(200);
   //res.json({ barcode: barcode });
